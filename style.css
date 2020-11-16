@@ -1,0 +1,45 @@
+#principal{
+    border: 3px solid rgb(140, 241, 145);
+    color: black;
+    background-color: white;
+    border-radius:5%;
+    padding-bottom: 30px;
+}
+
+.ball { /*seletor, chama a classe ball*/
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px; /*manter em ordem alfabetica*/
+    width: 50px;
+}
+
+body {
+    background-color: rgb(180, 143, 228);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 500px;
+    margin: 10em auto;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    
+    font-size: 3em;
+}
+
+.ball {
+    margin-right: 1px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+#reset-game {
+    font-size: 1em;
+    border: 1px solid white;
+    line-height: 2em;
+    color: white;
+    
+}
